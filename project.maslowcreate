@@ -10,57 +10,15 @@
             "topLevel": true,
             "allAtoms": [
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 558,
-                    "y": 201,
-                    "uniqueID": 756453,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 25
-                        }
-                    ]
-                },
-                {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 733,
-                    "y": 226,
-                    "uniqueID": 233532,
+                    "x": 320,
+                    "y": 128,
+                    "uniqueID": 717298,
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 20
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 734,
-                    "y": 226,
-                    "uniqueID": 183369,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 30
                         }
                     ]
                 },
