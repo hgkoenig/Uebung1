@@ -60,10 +60,6 @@
                     "uniqueID": 936322,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "height",
                             "ioValue": 10
                         }
@@ -75,7 +71,16 @@
                     "x": 644,
                     "y": 238,
                     "uniqueID": 896293,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "3D shape 759985",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 381244",
+                            "ioValue": 10
+                        }
+                    ],
                     "removeCutawayGeometry": true
                 },
                 {
@@ -95,8 +100,26 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 604527,
+                    "ap2ID": 936322
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 759985",
+                    "ap1ID": 978362,
+                    "ap2ID": 896293
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 381244",
+                    "ap1ID": 936322,
+                    "ap2ID": 896293
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 978362
+                    "ap1ID": 896293
                 }
             ],
             "fileTypeVersion": 1
