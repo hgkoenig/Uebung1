@@ -10,35 +10,23 @@
             "topLevel": true,
             "allAtoms": [
                 {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 624,
-                    "y": 210,
-                    "uniqueID": 341290,
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 258,
+                    "y": 170,
+                    "uniqueID": 531540,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
+                            "name": "diameter",
+                            "ioValue": 30
                         }
                     ]
                 },
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 723,
-                    "y": 98,
+                    "x": 897,
+                    "y": 190,
                     "uniqueID": 688204,
                     "ioValues": [
                         {
@@ -64,6 +52,12 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 688204
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "diameter",
+                    "ap1ID": 688204,
+                    "ap2ID": 531540
                 }
             ],
             "fileTypeVersion": 1
