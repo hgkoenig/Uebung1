@@ -10,23 +10,35 @@
             "topLevel": true,
             "allAtoms": [
                 {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 296,
-                    "y": 198,
-                    "uniqueID": 717298,
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 624,
+                    "y": 210,
+                    "uniqueID": 341290,
                     "ioValues": [
                         {
-                            "name": "diameter",
-                            "ioValue": 30
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
                         }
                     ]
                 },
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 656,
-                    "y": 190,
+                    "x": 723,
+                    "y": 98,
                     "uniqueID": 688204,
                     "ioValues": [
                         {
@@ -50,12 +62,6 @@
             "allConnectors": [
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "diameter",
-                    "ap1ID": 688204,
-                    "ap2ID": 717298
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 688204
                 }
@@ -63,5 +69,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": 2
+    "circleSegmentSize": "5.8"
 }
