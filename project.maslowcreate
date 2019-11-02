@@ -35,7 +35,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 50
                         }
                     ]
                 },
@@ -51,6 +51,32 @@
                             "ioValue": 50
                         }
                     ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 376,
+                    "y": 264,
+                    "uniqueID": 936322,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 644,
+                    "y": 238,
+                    "uniqueID": 896293,
+                    "ioValues": [],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
