@@ -10,10 +10,44 @@
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "Union",
+                    "name": "Union",
+                    "x": 296,
+                    "y": 177,
+                    "uniqueID": 245225,
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "geometry2",
+                            "ioValue": ""
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 360,
+                    "y": 270,
+                    "uniqueID": 480520,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 25
+                        }
+                    ]
+                },
+                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 207,
-                    "y": 111,
+                    "x": 481,
+                    "y": 122,
                     "uniqueID": 450587,
                     "ioValues": [
                         {
@@ -27,27 +61,10 @@
                     ]
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 212,
-                    "y": 114,
-                    "uniqueID": 644459,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Circle",
                     "name": "Circle",
                     "x": 987,
-                    "y": 118,
+                    "y": 133,
                     "uniqueID": 233532,
                     "ioValues": [
                         {
