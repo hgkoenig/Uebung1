@@ -27,6 +27,36 @@
                     ]
                 },
                 {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 212,
+                    "y": 114,
+                    "uniqueID": 644459,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 987,
+                    "y": 118,
+                    "uniqueID": 233532,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 15
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1486,
