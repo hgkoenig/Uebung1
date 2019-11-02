@@ -27,6 +27,15 @@
                     ]
                 },
                 {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 311,
+                    "y": 60,
+                    "uniqueID": 268308,
+                    "ioValues": [],
+                    "selectedColorIndex": "2"
+                },
+                {
                     "atomType": "Circle",
                     "name": "Circle",
                     "x": 192,
@@ -66,15 +75,6 @@
                     ]
                 },
                 {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 636,
-                    "y": 71,
-                    "uniqueID": 268308,
-                    "ioValues": [],
-                    "selectedColorIndex": 0
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 644,
@@ -105,6 +105,12 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 279251,
+                    "ap2ID": 268308
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 268308,
                     "ap2ID": 978362
                 },
                 {
