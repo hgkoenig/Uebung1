@@ -12,17 +12,17 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 145,
-                    "y": 134,
+                    "x": 138,
+                    "y": 141,
                     "uniqueID": 279251,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 20
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10
+                            "ioValue": 20
                         }
                     ]
                 },
@@ -66,6 +66,15 @@
                     ]
                 },
                 {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 636,
+                    "y": 71,
+                    "uniqueID": 268308,
+                    "ioValues": [],
+                    "selectedColorIndex": 0
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 644,
@@ -86,8 +95,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1486,
-                    "y": 188.5,
+                    "x": 1478,
+                    "y": 192,
                     "ioValues": []
                 }
             ],
